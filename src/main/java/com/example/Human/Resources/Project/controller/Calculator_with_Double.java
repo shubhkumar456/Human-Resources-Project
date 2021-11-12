@@ -14,14 +14,14 @@ public class Calculator_with_Double {
 
     @RequestMapping("/Division")
     public double div(){
-        double result = 1222.5+34.4;
+        double result = 1222.5/34.4;
         return result;
     }
 
 
     @RequestMapping("/Substraction")
     public double sub(){
-        double result = 100.5+34.4;
+        double result = 100.5-34.4;
         return result;
     }
 
